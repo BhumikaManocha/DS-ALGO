@@ -20,3 +20,19 @@
 // ¤ ¤ ¤
 // ¤ ¤
 // Because the 4th row is incomplete, we return 3.
+
+class Solution {
+public:
+    int arrangeCoins(int n) {
+        if(n==0) 
+            return 0;
+        int row=0;
+        long sum=0;
+        while(sum<=n)
+        {
+            sum=sum+row+1;
+            row++;
+        }
+        return row-1;
+    }
+};
