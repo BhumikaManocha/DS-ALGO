@@ -11,6 +11,7 @@
 // ¤ ¤
 // ¤ ¤
 // Because the 3rd row is incomplete, we return 2.
+// Tags: Mathematics, Loops
 
 // Example 2:
 // n = 8
